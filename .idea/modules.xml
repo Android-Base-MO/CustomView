@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CustomView.iml" filepath="$PROJECT_DIR$/CustomView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/picchangeview_pageviewdemo/picchangeview_pageviewdemo.iml" filepath="$PROJECT_DIR$/picchangeview_pageviewdemo/picchangeview_pageviewdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidemeun/slidemeun.iml" filepath="$PROJECT_DIR$/slidemeun/slidemeun.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spinnerviewdemo/spinnerviewdemo.iml" filepath="$PROJECT_DIR$/spinnerviewdemo/spinnerviewdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sweepdeletedemo/sweepdeletedemo.iml" filepath="$PROJECT_DIR$/sweepdeletedemo/sweepdeletedemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/toggleviewdemo/toggleviewdemo.iml" filepath="$PROJECT_DIR$/toggleviewdemo/toggleviewdemo.iml" />
+    </modules>
+  </component>
+</project>

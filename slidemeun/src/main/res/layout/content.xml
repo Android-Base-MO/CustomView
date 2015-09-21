@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--标题-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@drawable/top_bar_bg">
+        <ImageView
+            android:id="@+id/iv_news"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/main_back" />
+        <ImageView
+            android:id="@+id/iv_verLine"
+            android:layout_width="12dp"
+            android:layout_height="64dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv_news"
+            android:src="@drawable/top_bar_divider" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/iv_verLine"
+            android:text="新闻客户端"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+    </RelativeLayout>
+    <!--内容正文-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="正文内容"/>
+</LinearLayout>

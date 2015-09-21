@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <mo.com.slidemeun.SlideMeunView
+        android:id="@+id/menu_smv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--菜单-->
+        <include layout="@layout/menu" />
+        <!--内容-->
+        <include layout="@layout/content"/>
+    </mo.com.slidemeun.SlideMeunView>
+</RelativeLayout>

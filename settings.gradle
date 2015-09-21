@@ -1,0 +1,1 @@
+include ':app', ':picchangeview_pageviewdemo', ':slidemeun', ':sweepdeletedemo', ':spinnerviewdemo', ':toggleviewdemo'
